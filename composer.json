@@ -10,8 +10,6 @@
     "license": "MIT",
     "require": {
         "php": "^8.4",
-        "ext-gd": "*",
-        "ext-zip": "*",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^3.0",
         "mpdf/mpdf": "^8.3",
@@ -84,7 +82,9 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "platform": {
-            "php": "8.4"
+            "php": "8.4",
+            "ext-zip": "1.21.1",
+            "ext-gd": "2.3.3"
         },
         "allow-plugins": {
             "pestphp/pest-plugin": true,
